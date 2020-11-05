@@ -2,6 +2,7 @@
 
 
 > npm install -g appcenter-cli
+
 > npm install --save react-native-code-push
 
 ### Android Setup
