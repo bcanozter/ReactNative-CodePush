@@ -14,14 +14,18 @@ ___
 Add followings lines to `android/settings.gradle`
 
 > include ':app', ':react-native-code-push'
+
 > project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
 
 ___
 Then, `android/app/build.gradle`
 
 > ...
+
 > apply from: "../../node_modules/react-native/react.gradle"
+
 > apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
+
 > ...
 
 ___
